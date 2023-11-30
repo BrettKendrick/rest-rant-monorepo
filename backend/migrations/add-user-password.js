@@ -5,12 +5,6 @@ module.exports = {
     return queryInterface.addColumn('users', 'password_digest', {
       type: Sequelize.DataTypes.STRING
     })
-
-
-
-
-
-  
   },
 
   down: async (queryInterface, Sequelize) => {
